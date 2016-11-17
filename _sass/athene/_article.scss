@@ -1,0 +1,35 @@
+article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 20px;
+}
+.post-meta {
+  color: $meta-gray;
+  float: right;
+}
+
+.post-link {
+  display: block;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Post
+
+.blog-pager {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    border: 1px solid $meta-gray;
+    display: inline-block;
+    padding: 10px;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}
