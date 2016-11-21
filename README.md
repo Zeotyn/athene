@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Todo
 
-- [ ] Add config variables
+- [x] Add config variables
 - [ ] Add examples
 - [ ] Add usage
 
