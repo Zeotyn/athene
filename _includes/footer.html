@@ -1,7 +1,12 @@
 <footer>
   Copyright © zeotyn.de
   <aside>
-    <a href="https://twitter.com/zeotyn" target="_blank"><i class="icon ion-social-twitter"></i></a>
-    <a href="https://github.com/Zeotyn" target="_blank"><i class="icon ion-social-github"></i></a>
+    {% if site.github_username %}
+      {% include github.html username=site.github_username %}
+    {% endif %}
+
+    {% if site.twitter_username %}
+      {% include twitter.html username=site.twitter_username %}
+    {% endif %}
   </aside>
 </footer>
