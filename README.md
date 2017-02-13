@@ -1,6 +1,7 @@
 # athene
+[![Gem Version](https://badge.fury.io/rb/athene.svg)](https://badge.fury.io/rb/athene)
 
-This is a simple jekyll theme. It includes nothing special and its very minimal.
+This is a simple jekyll theme. It includes nothing special and its very minimal. Example here: www.zeotyn.de
 
  ![screenshot](screenshot.png)
 
